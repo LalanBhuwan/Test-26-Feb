@@ -1,0 +1,144 @@
+.main-container {
+  border-left: solid;
+  border-right: solid;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  left: 500px;
+  top: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.first-container {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-container-child1 {
+  background-color: #e61e28;
+  display: inline-block;
+  height: 200px;
+  width: 272px;
+  position: absolute;
+  right: 330px;
+}
+
+.first-container-child2 {
+  background-color: #faea05;
+  display: inline-block;
+  height: 100px;
+  width: 328px;
+  position: absolute;
+  left: 180px;
+}
+
+.first-container-child3 {
+  background-color: #358545;
+  display: inline-block;
+  height: 100px;
+  width: 328px;
+  position: absolute;
+  top: 125px;
+  left: 180px;
+}
+
+.first-container-child4 {
+  background-color: #de28a7;
+  display: inline;
+  height: 200px;
+  width: 94.9px;
+  position: absolute;
+  left: 507px;
+}
+
+.second-container {
+  height: 200px;
+}
+
+.second-container-child1 {
+  background-color: #ed822b;
+  display: inline-block;
+  height: 99px;
+  width: 330px;
+  position: relative;
+  right: 1.5px;
+}
+
+.second-container-child2 {
+  background-color: rgb(30, 158, 243);
+  display: inline-block;
+  height: 99px;
+  width: 107px;
+  position: relative;
+  right: 6px;
+}
+
+.second-container-child3 {
+  background-color: #cc9c65;
+  display: inline-block;
+
+  height: 101px;
+  width: 436px;
+  position: relative;
+  right: 1.5px;
+}
+
+.second-container-child4 {
+  background-color: rgb(121, 17, 153);
+  display: inline-block;
+  height: 200px;
+  width: 180px;
+  position: absolute;
+  bottom: 25px;
+  right: -1.3px;
+}
+
+.first-container-sp1 {
+  position: fixed;
+  padding-left: 68px;
+  padding-top: 90px;
+}
+
+.first-container-sp2 {
+  position: relative;
+  left: 150px;
+  top: 35px;
+}
+
+.first-container-sp3 {
+  position: relative;
+  left: 150px;
+  top: 35px;
+}
+
+.first-container-sp4 {
+  position: relative;
+  left: 25px;
+  top: 100px;
+}
+
+.second-container-spn1 {
+  position: relative;
+  left: 140px;
+  top: 40px;
+}
+
+.second-container-spn2 {
+  position: relative;
+  left: 32px;
+  top: 40px;
+}
+
+.second-container-spn3 {
+  position: relative;
+  left: 208px;
+  top: 45px;
+}
+
+.second-container-spn4 {
+  position: relative;
+  left: 75px;
+  top: 95px;
+}
